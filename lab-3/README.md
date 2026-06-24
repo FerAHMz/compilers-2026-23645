@@ -16,7 +16,7 @@ Selecciona **una** de las cuatro opciones disponibles. Cada una demuestra el mis
 
 | Opción | Proveedor | Costo | Carpeta |
 |--------|-----------|-------|---------|
-| A | DigitalOcean | Tu dinero / crédito gratuito en cuentas nuevas | `antlr/` |
+| A | DigitalOcean | Tu dinero / crédito gratuito en cuentas nuevas | `option-do/` |
 | B | AWS | Crédito estudiantil / AWS Free Tier / tu dinero | `option-aws/` |
 | C | GCP | Crédito estudiantil / GCP Free Trial ($300) / tu dinero | `option-gcp/` |
 | D | GitHub + Vercel | ✅ **100% GRATIS, sin tarjeta de crédito** | `option-vercel/` |
@@ -33,7 +33,7 @@ Escribes un DSL similar a Terraform, lo parseas con ANTLR, y el listener llama a
 
 **Costo:** DigitalOcean históricamente ofrece crédito gratuito a cuentas nuevas — verifica si sigue vigente en [digitalocean.com](https://www.digitalocean.com). De lo contrario, un Droplet básico cuesta ~$6/mes; si lo destruyes de inmediato, el costo real es de centavos.
 
-📖 Instrucciones completas: [`antlr/README_NOTES.md`](antlr/README_NOTES.md)
+📖 Instrucciones completas: [`option-do/README.md`](option-do/README.md)
 
 ---
 
