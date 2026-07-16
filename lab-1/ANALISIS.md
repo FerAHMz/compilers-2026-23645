@@ -2,6 +2,8 @@
 
 En este documento presento mi análisis de la gramática `MiniLang.g4` y del archivo `Driver.py` del entorno base de ANTLR, explicando lo que entiendo sobre su funcionamiento.
 
+🎥 **Video demostrativo:** https://youtu.be/kzBC0AOrrkA
+
 ---
 
 ## 1. ¿Qué es un archivo `.g4`?
