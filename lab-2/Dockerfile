@@ -44,7 +44,7 @@ RUN apt-get update && apt-get install -y \
 
 # Install ANTLR
 # We are using a version we downloaded from https://www.antlr.org/download/antlr-4.13.2-complete.jar
-COPY antlr-4.13.2-complete.jar /usr/local/lib/antlr-4.13.2-complete.jar
+COPY antlr-4.13.1-complete.jar /usr/local/lib/antlr-4.13.1-complete.jar
 
 COPY ./commands/antlr /usr/local/bin/antlr
 RUN chmod +x /usr/local/bin/antlr
