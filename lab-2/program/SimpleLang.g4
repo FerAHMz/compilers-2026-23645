@@ -4,7 +4,9 @@ prog: stat+ ;
 
 stat: expr NEWLINE ;
 
-expr: expr op=('*'|'/') expr       # MulDiv
+expr: <assoc=right> expr op='^' expr # Pow
+    | expr op=('*'|'/') expr       # MulDiv
+    | expr op='%' expr             # Mod
     | expr op=('+'|'-') expr       # AddSub
     | INT                          # Int
     | FLOAT                        # Float
